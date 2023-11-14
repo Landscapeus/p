@@ -1,0 +1,8 @@
+import math
+
+lilczba=int(input("Podaj liczbe: "))
+
+if lilczba%2==0:
+    print("Liczba jest podzielna przez dwa.")
+else:
+    print("Liczba nie jest podzielna przez dwa.")
