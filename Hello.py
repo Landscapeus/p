@@ -156,11 +156,18 @@ else:
 
 #end=time.time()
 #print(end-start)
-start=time.time() #złooność kwadratowa
-n=int(input("Podaj liczbę całkowitą: "))
-for i in range(n):
-    for j in range(n):
-        print("#", end='')
-    print()
-end=time.time()
-print(end-start)
+#start=time.time() #złooność kwadratowa
+#n=int(input("Podaj liczbę całkowitą: "))
+#for i in range(n):
+#    for j in range(n):
+#        print("#", end='')
+#    print()
+#end=time.time()
+#print(end-start)
+
+f=open("text.txt","r")
+print(f.read())
+f.close()
+
+f=open("text.txt","a")
+f.write("\neeeeeeeen\n")
