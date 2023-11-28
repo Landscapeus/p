@@ -1,10 +1,12 @@
 import random
+import time
 print("Welcome to rock paper scissors game!")# WELCOME TO MARIO KART
 integer=0
 while integer==0:
     ronk=input("Please choose between Rock, Paper and Scissors (case sensitive): ")
     wööd=["Rock","Paper","Scissors"]
     cannon=random.choice(wööd)
+    time.sleep=(1)
     if ronk=="Rock" and cannon=="Paper":
         print("You chose ",ronk,", and computer chose ",cannon,". You lost. Maybe next time!")
         integer=int(input("Do you want to try again? 0 for yes and any other number for no. "))
