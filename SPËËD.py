@@ -6,7 +6,7 @@ jeden=["Thee","Thoust","Minos","Bees"]
 dwa=["Potato","Sisyphus","Tomato","Chocolate"]
 trzy=["Flesh Prison","King Midas","Judge of Hell","Peforator Hive"]
 cztery=["Flesh Panopticon","Layer of Violence","Ishallshowtheespeed"]
-fünf=["Wyrewolwerowany rewolwerowiec wyrewolwerował wyrewolwerowanego rewolwerowca"]# tak jestem złym człowiekiem jak mogłeś się domyślić
+fünf=["Wyrewolwerowany rewolwerowiec wyrewolwerowal wyrewolwerowanego rewolwerowca"]# tak jestem złym człowiekiem jak mogłeś się domyślić
 if diffffffffffficulty==1:
     randomizer=random.choice(jeden)
     print("Thy word is: ",randomizer)
