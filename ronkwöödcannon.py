@@ -29,3 +29,4 @@ while integer==0:
     else:
         print("Either you forgot that it's case sensitive or you wrote wrong word.")
         integer=int(input("Do you want to try again? 0 for yes and any other number for no. "))
+print("Thanks for Playing!")
